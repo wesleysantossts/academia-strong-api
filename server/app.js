@@ -1,10 +1,12 @@
 const express = require("express"), cors = require("cors"), routes = require("./routes.js"), mongoose = require("mongoose"), dotenv = require("dotenv");
 dotenv.config();
+const MONGO = process.env.MONGO;
+
 
 class App {
   constructor(){
     this.server = express();
-    mongoose.connect("mongodb://localhost:27017/academiaStrong")
+    mongoose.connect(MONGO)
     .then(()=> console.log("DB conectado."))
     .catch(error => console.log("Erro ao conectar o servidor", error));
 

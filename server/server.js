@@ -1,3 +1,5 @@
-const app = require("./app");
+const app = require("./app"), dotenv = require("dotenv");
+dotenv.config()
+const PORT = process.env.PORT;
 
-app.listen(8181, ()=> console.log("Servidor rodando..."))
+app.listen(PORT, ()=> console.log(`Servidor rodando na porta ${PORT}...`))

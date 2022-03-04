@@ -1,1 +1,3 @@
-describe("Login de usuário")
+describe("Autenticação do login de usuário", ()=>{
+  beforeAll()
+})
