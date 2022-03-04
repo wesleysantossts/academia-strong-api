@@ -1,7 +1,7 @@
-const api = require("../services/api");
+const api = require("../services/api"), jwt = require("jsonwebtoken"), JWTSecret = "jadlfjaçdjfija jadlfjaçsf";
 
 class SessionController {
-  Login(req, res){
+  store(req, res){
     res.json({ok: true})
   }
 }
