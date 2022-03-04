@@ -1,0 +1,35 @@
+{
+  "name": "academia-strong-api",
+  "version": "1.0.0",
+  "description": "Site de academia para treino de desenvolvimento de APIs.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "node -r dotenv/config ./server/app.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleysantossts/academia-strong-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleysantossts/academia-strong-api/issues"
+  },
+  "homepage": "https://github.com/wesleysantossts/academia-strong-api#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
