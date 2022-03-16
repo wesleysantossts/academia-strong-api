@@ -1,0 +1,45 @@
+.sidebar {
+  position: fixed;
+  height: 100%;
+  margin: 0 0 0 0;
+  padding: 0;
+  overflow: auto;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: red;
+
+  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0;
+    color: red;
+  }
+}
+
+.content {
+  margin-left: 200px;
+  padding: 12px;
+}
+
+@media screen and (max-width: 600px){
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: red;
+
+    div {
+      display: none
+    }
+  }
+  
+  .content {
+    margin-left: 0;
+  }
+}
+
+

@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "env-cmd -f .env.local ./server/server.js",
+    "dev": "node ./server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/wesleysantossts/academia-strong-api#readme",
   "dependencies": {
     "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
@@ -31,6 +32,7 @@
     "supertest": "^6.2.2"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1"
   }

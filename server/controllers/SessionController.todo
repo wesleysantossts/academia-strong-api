@@ -1,0 +1,9 @@
+Signout:
+  ✔ Sem aceitar email repetido @done(22-03-08 18:22)
+  ☐ Com autenticação persistente em JWT
+  ☐ Com autenticação de e-mail
+
+Signin:
+  ☐ Autenticação persistente em JWT
+
+

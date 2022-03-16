@@ -1,5 +1,5 @@
-const express = require("express"), cors = require("cors"), routes = require("./routes.js"), mongoose = require("mongoose"), dotenv = require("dotenv");
-dotenv.config();
+const express = require("express"), cors = require("cors"), routes = require("./routes.js"), mongoose = require("mongoose");
+require("dotenv").config();
 const MONGO = process.env.MONGO;
 
 
